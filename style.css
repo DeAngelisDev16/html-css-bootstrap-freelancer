@@ -24,6 +24,16 @@
     background-color: brown;
 }
 
+.upper-footer{
+    height: 20vh;
+    background-color: grey;
+}
+
+.lower-footer{
+    height: 10vh;
+    background-color: greenyellow;
+}
+
 
 
 
