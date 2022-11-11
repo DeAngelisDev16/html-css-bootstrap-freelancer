@@ -3,11 +3,40 @@
     background-color: green;
 }
 
+/* JUMBO-REGION */
+
 .start_bootstrap{
-    height: 40vh;
-    background-color: red;
+    background-color: #1ABC9C;
+}
+
+#jumbo{
+    max-width: 20%;
+}
+
+.left, .right{
+    display: inline-block;
+    height: 3px;
+    width: 100px;
+    border-radius: 10%;
+    background-color: white;
+    margin-bottom: 0.5rem;
     
 }
+
+.left{
+    margin-right: 1rem;
+}
+
+.right{
+    margin-left: 1rem;
+}
+
+.fa-star{
+    font-size: 30px;
+    color: white;
+}
+
+/* /END-JUMBO-REGION */
 
 .portfolio{
     height: 50vh;
@@ -33,6 +62,11 @@
     height: 10vh;
     background-color: greenyellow;
 }
+
+
+/* COLORS */
+
+/* jumbo-section: #1ABC9C */
 
 
 
