@@ -36,15 +36,23 @@
     color: white;
 }
 
-/* /END-JUMBO-REGION */
+.black{
+    color: #2C3E50;
 
-.portfolio{
-    height: 50vh;
-    background-color: aqua;
 }
 
+.dark{
+    background-color: #2C3E50;
+}
+
+
+
+/* /END-JUMBO-REGION */
+
+
+
 .about{
-    height: 30vh;
+   
     background-color: blueviolet;
 }
 
