@@ -1,16 +1,15 @@
-.my_header{
-    height: 10vh;
-    background-color: green;
+.nav-color{
+    background-color: #2C3E50 ;
 }
 
 /* JUMBO-REGION */
 
-.start_bootstrap{
+.start_bootstrap, .about{
     background-color: #1ABC9C;
 }
 
 #jumbo{
-    max-width: 20%;
+    max-width: 25%;
 }
 
 .left, .right{
@@ -45,36 +44,42 @@
     background-color: #2C3E50;
 }
 
-
-
 /* /END-JUMBO-REGION */
 
-
-
-.about{
-   
-    background-color: blueviolet;
-}
-
-.contact-me{
-    height: 40vh;
-    background-color: brown;
-}
-
 .upper-footer{
-    height: 20vh;
-    background-color: grey;
+    
+    background-color: #3A546D;
 }
 
 .lower-footer{
-    height: 10vh;
-    background-color: greenyellow;
+    
+    background-color: #2C3E50;
 }
 
+.circle{
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 10px;
+    
+    
+}
 
 /* COLORS */
 
-/* jumbo-section: #1ABC9C */
+/* jumbo-section/about-section: #1ABC9C */
+/* navbar: #2C3E50 */
+/* upper-foter: #3A546D */
+/* lower-footer: #2C3E50 */
+
+
+
+
+
+   
+
+
+
+
 
 
 

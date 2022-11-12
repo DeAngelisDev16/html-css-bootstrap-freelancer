@@ -14,27 +14,14 @@
 <body>
     <!-- HEADER/NAVBAR -->
     <header id="site_header">
-        <nav class="navbar navbar-expand-lg bg-light">
-            <div class="container">
-              <a class="navbar-brand" href="#">Navbar</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled">Disabled</a>
-                  </li>
-                </ul>
+        <nav class="navbar nav-color">
+            <div class="container-fluid py-3 justify-content-around ">
+              <a class="navbar-brand text-uppercase text-white" href="#">start bootstrap</a>
+              <div class="right_nav">
+                <a class="text-uppercase px-2 text-decoration-none text-white" href="#">Portfolio</a>
+                <a class="text-uppercase px-2 text-decoration-none text-white" href="#">about</a>
+                <a class="text-uppercase px-2 text-decoration-none text-white" href="#">contact</a>
+               
               </div>
             </div>
           </nav>
@@ -71,7 +58,7 @@
             <div class="container">
                 <div class="row ">
                     <div class="col-12">
-                        <h2 class="text-uppercase text-center fs-3 fw-bold mt-5">Portfolio</h2>
+                        <h2 class="text-uppercase py-3 text-center fs-2 fw-bold mt-5">Portfolio</h2>
                         <div class="mb-4 text-center">
                             <div class="left dark"></div>
                             <i class="fa-solid fa-star black"></i>
@@ -96,20 +83,70 @@
             
         </section>
         <!-- SEZIONE ABOUT -->
-        <section class="about mt-5">
+        <section class="about py-4">
             <div class="container">
-                <div class="row gy-4 gx-1">
-                    <div class="col-12 col-md-6">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum optio, delectus rerum aspernatur maxime quibusdam deleniti quasi ea veniam eius.</div>
-                    <div class="col-12 col-md-6 ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit tempore, repudiandae at cum harum repellendus esse blanditiis corporis neque. Nesciunt.</div>
+                <div class="row mb-2 ">
+                    <div class="col-12">
+                        <h2 class="text-uppercase py-3 text-center fs-2 text-white fw-bold">About</h2>
+                        <div class="mb-3 text-center">
+                            <div class="left "></div>
+                            <i class="fa-solid fa-star"></i>
+                            <div class="right"></div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="row gx-4 gy-4 text-start text-white">
+                    <div class="col-12 col-md-6">Freelancer is a free bootstrap theme created by Start Bootstrsap. The download includes the complete source files including HTML, CSS and Javascript as well as optional LESS stylesheets for easy customization.</div>
+                    <div class="col-12 col-md-6 ">Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</div>
+                </div>
+                <div class="row text-center mt-5">
+                    <div class="col-12">
+                        <button type="button" class="btn btn-outline-light"><i class="fa-solid fa-download px-1"></i>Download</button>
+                    </div>
                 </div>
             </div>
         </section>
         <!-- SEZIONE FORM -->
         <section class="contact-me">
             <div class="container">
-                <div class="row">
-                    <div class="col-12 text-center">FORM</div>
+                <div class="row ">
+                    <div class="col-12">
+                        <h2 class="text-uppercase py-3 text-center fs-2 fw-bold mt-5">Contact me</h2>
+                        <div class="mb-4 text-center">
+                            <div class="left dark"></div>
+                            <i class="fa-solid fa-star black"></i>
+                            <div class="right dark"></div>
+                        </div>
+                    </div>
+                    
                 </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="mb-2">
+                            <label for="formGroupExampleInput" class="form-label">Name</label>
+                            <input type="text" class="form-control border-start-0 border-top-0 border-end-0" id="formGroupExampleInput" >
+                          </div>
+                          <div class="mb-2">
+                            <label for="formGroupExampleInput2" class="form-label">Email Address</label>
+                            <input type="text" class="form-control border-start-0 border-top-0 border-end-0" id="formGroupExampleInput2">
+                          </div>
+                          <div class="mb-2">
+                            <label for="formGroupExampleInput" class="form-label">Phone Number</label>
+                            <input type="text" class="form-control border-start-0 border-top-0 border-end-0" id="formGroupExampleInput">
+                          </div>
+                          <div class="form-floating mb-3">
+                            <textarea class="form-control border-start-0 border-top-0 border-end-0" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 150px"></textarea>
+                            <label for="floatingTextarea2" class="px-1">Message</label>
+                          </div>
+                    </div>
+                </div>
+                <div class="row mb-5">
+                    <div class="col-12">
+                        <button type="button" class="btn btn-info text-white">send</button>
+                    </div>
+                </div>
+                
             </div>
 
         </section>
@@ -121,18 +158,21 @@
     <footer id="site_footer">
         <section class="upper-footer">
             <div class="container">
-                <div class="row">
-                    <div class="col-12 col-md-4 text-center">LOCATION <br> address</div>
-                    <div class="col-12 col-md-4 text-center">AROUND THE WEB <br> icons</div>
-                    <div class="col-12 col-md-4 text-center">ABOUT FREELANCER <br> text</div>
+                <div class="row gy-3 gx-4 py-5">
+                    <div class="col-12 col-md-4 text-center text-white">LOCATION <br>2215 Jhon Daniel Drive Clark, MO 54243 </div>
+                    <div class="col-12 col-md-4 text-center text-white">AROUND THE WEB <br><i class="fa-brands fa-facebook-f px-3 circle"></i>
+                        <i class="fa-brands fa-google-plus-g px-3 circle"></i>
+                        <i class="fa-brands fa-twitter px-3 circle"></i>
+                        <i class="fa-brands fa-linkedin-in px-3 py-2 circle"></i></div>
+                    <div class="col-12 col-md-4 text-center text-white">ABOUT FREELANCER <br>Freelance is a free to use, opensource Bootstrap theme created by <a class="text-decoration-none" href="#">Start Bootstrap</a></div>
                     
                 </div>
             </div>
         </section>
         <section class="lower-footer">
             <div class="container">
-                <div class="row">
-                    <div class="col-12 text-center">Copyright</div>
+                <div class="row py-5">
+                    <div class="col-12 text-center text-white">Copyright &copy; Your Website 2019</div>
                 </div>
             </div>
         </section>
